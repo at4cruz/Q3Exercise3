@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Q3 | Exercise 3</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <style type="text/css">
+    img{
+      width: 25%;
+      height: 25%;
+    }
+    body{
+      background-color: darkblue;
+    }
+    h2, p{
+      color: red;
+    }
+    h8{
+      color: whitesmoke;
+    }
+
+  </style>
+</head>
+<body>
+     <div class="container">
+       <h2>Best NBA Players</h2>
+       <p>Weekly rankings of who the current best NBA players are!</p>
+       <table class="table table-hover table-secondary">
+        <thead>
+          <tr>
+            <th scope="col" class="bg-danger">Rank</th>
+            <th scope="col" class="bg-danger">Athlete</th>
+            <th scope="col" class="bg-danger">Short Description about the NBA Player</th>
+            <th scope="col" class="bg-danger">Nickname</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="bg-warning">
+            <th scope="row">1</th>
+            <td><img src="https://www.si.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTk1NjI1MDQ2ODA1NjUyODc3/lebron-james-6-2.jpg" class="rounded"> &nbsp;Lebron James</td>
+            <td>He averages 31.6 points, 9.6 rebounds, 4.6 assists and 3.4 steals in his prime.  He is 6'9" and currently plays for the Los Angeles Lakers.</td>
+            <td>King James</td>
+          </tr>
+          <tr class="bg-warning">
+            <th scope="row">2</th>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Kobe_Bryant_2014.jpg/640px-Kobe_Bryant_2014.jpg" class="rounded"> &nbsp;Kobe Bryant</td>
+            <td>He averaged 25 points, 5.2 rebounds and 4.7 assists in his prime. He was 6'6" and last played for the Los Angeles Lakers before his untimely death on January 2020.</td>
+            <td>The Black Mamba</td>
+          </tr>
+           <tr class="bg-light">
+            <th scope="row">3</th>
+            <td><img src="https://www.si.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTk0MjUzODI4NTY3MDgyNTAx/stephen-curry.jpg" class="rounded"> &nbsp;Stephen Curry</td>
+            <td>He currently averages 29.4 points, 6.3 rebounds, and 6.4 assists. He is 6'2" and currently plays for the Golden State Warriors.</td>
+            <td>The Baby-Faced Assassin</td>
+          </tr>
+          <tr class="bg-success">
+            <th scope="row">4</th>
+            <td><img src="https://imageio.forbes.com/specials-images/imageserve/627bd323672c41ea74c88a13/0x0.jpg?format=jpg&crop=1834,1833,x583,y167,safe&height=416&width=416&fit=bounds" class="rounded"> &nbsp;Giannis Antetokoumpo</td>
+            <td>He currently averages 32.2 points, 12.4 rebounds, and 5.3 assists. He is 6'11" and currently plays for the Milwaukee Bucks.</td>
+            <td>The Greek Freak</td>
+          </tr>
+          <tr class="bg-primary">
+            <th scope="row">5</th>
+            <td><img src="https://cdn.vox-cdn.com/thumbor/OsS-Sd9a5JH6IXrzNJiHPuqDDwI=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/24316428/usa_today_19636862.jpg" class="rounded"> &nbsp;Luka Doncic</td>
+            <td>He currently averages 33.4 points, 8.9 rebounds, and 8.2 assists. He is 6'7" and currently plays for the Dallas Mavericks.</td>
+            <td>Luka Magic</td>
+          </tr>
+        </tbody>
+     </div>
+    </tbody>
+  </table>
+</div>
+<h8>References: N/A. (2023). NBA Player's Stats. espn.ph. https://www.si.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTk1NjI1MDQ2ODA1NjUyODc3/lebron-james-6-2.jpg</h8>
+<h8>Images: N/A. (2023). Forbes.com </h8>
+<div class="container">
+  <h2 class="text-warning">Sign up for more updates!</h2>
+  <form class="form-horizontal" action="">
+    <div class="form-group">
+      <label class="text-warning" class="control-label col-sm-2" for="email">Email:</label>
+      <div class="col-sm-10">
+        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+      </div>
+  </div>
+  <div class="form-group">
+      <label class="text-light" class="control-label col-sm-2" for="phone number">Phone Number:</label>
+      <div class="col-sm-10">
+        <input type="phone number" class="form-control" id="phone number" placeholder="Enter phone number" name="phone number">
+      </div>
+    </div>
+      <div class="form-group">
+      <label class="text-success" class="control-label col-sm-2" for="pwd">Password:</label>
+      <div class="col-sm-10">
+        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-10">
+        <div class="checkbox">
+          <label class="text-primary"><input type="checkbox" name="remember"> Remember me</label>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-success">Sign In</button>
+          <button type="reset" class="btn btn-danger">Cancel</button>
+      </div>
+    </div>
+  </form>
+</body>
+</html>
